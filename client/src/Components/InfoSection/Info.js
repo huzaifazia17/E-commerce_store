@@ -3,7 +3,7 @@ import {Button} from '../ButtonElements'
 import {InfoContainer, InfoWrapper, InfoRow, Column1, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Column2, ImgWrap, Img} from './InfoElements'
 
 
-const Info = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,description, buttonLabel, img, alt, primary,dark,dark2}) => {
+const Info = ({lightBg,id,imgStart,topLine,lightText,headline,darkText,description, buttonLabel, img, alt, primary,dark}) => {
   return (
     <>
         <InfoContainer lightBg={lightBg} id={id}>
