@@ -19,8 +19,8 @@ const Hero = () => {
         <HeroContent>
             <HeroH1>Welcome To Orange Tech</HeroH1>
             <HeroP>
-                Highest Quality
-                Cheapest Price
+                Highest Quality,
+                Cheapest Price,
                 Amazing tech
             </HeroP>
             <HeroBtnWrapper>

@@ -1,7 +1,6 @@
 import React from 'react'
-import { Formik, Form, Field, ErrorMessage } from "formik";
-
-import { Container, FormWrap, Icon, FormButton, FormContent, FormH1, FormInput, FormLabel } from './SignUpPageElements'
+//import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Container, FormWrap, Icon, Form, FormButton, FormContent, FormH1, FormInput, FormLabel } from './SignUpPageElements'
 
 const SignUpPage = () => {
   return (
