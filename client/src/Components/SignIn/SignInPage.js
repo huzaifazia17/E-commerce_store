@@ -13,7 +13,7 @@ const SignInPage = () => {
                         <FormH1>Sign In To Your Account</FormH1>
 
                         <FormLabel htmlFor='for'>Email</FormLabel>
-                        <FormInput trype='email' required/>
+                        <FormInput type='email' required/>
                         <FormLabel htmlFor='for'>Password</FormLabel>
                         <FormInput type='password' required />
                         <FormButton type='submit'>Continue</FormButton>
