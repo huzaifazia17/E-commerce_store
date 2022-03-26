@@ -10,8 +10,8 @@ export const homeObjOne = {
     imgStart: false,
     img: require('../../Images/pic1.png'),
     alt: 'Shopping',
-    dark: false,
-    primary: false,
+    dark: true,
+    primary: true,
     darkText: false
 }
 
@@ -27,7 +27,7 @@ export const homeObjTwo = {
     imgStart: true,
     img: require('../../Images/pic1.png'),
     alt: 'Shopping',
-    dark: false,
+    dark: true,
     primary: false,
     darkText: true
 }
