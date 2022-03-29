@@ -1,8 +1,10 @@
 import React, {useEffect, useState} from 'react'
-import {FaBars} from 'react-icons/fa'
+import {Link} from "react-router-dom";
+import {FaBars, FaShoppingCart} from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import {animateScroll as scroll} from 'react-scroll'
 import {Nav, NavBarContainer,NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavBarElements'
+import { Icon } from '../SideBar/SideBarElements';
 
 const NavBar = ({toggle}) => {
 
@@ -48,17 +50,20 @@ const NavBar = ({toggle}) => {
                     <NavItem>
                         <NavLinks to = "services" smooth={true} duration={500} spy={true} exact='true' offset={-79}>Services</NavLinks>
                     </NavItem>
-                    {/* <NavItem>
-                        <NavLinks to = "signup" smooth={true} duration={500} spy={true} exact='true' offset={-79}>Sign Up</NavLinks>
-                    </NavItem> */}
+                    <NavItem>
+                        <NavLinks to = "signin" smooth={true} duration={500} spy={true} exact='true' offset={-79}>
+                            <Link to = {"signin"} style={{ textDecoration: 'none' , color: '#fff'}}>Sign In</Link>
+                        </NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to = "signup" smooth={true} duration={500} spy={true} exact='true' offset={-79}>
+                            <Link to = {"signup"} style={{ textDecoration: 'none' , color: '#fff'}}>Sign Up</Link>
+                        </NavLinks>
+                    </NavItem>
                 </NavMenu>
 
-                <NavBtn>
-                    <NavBtnLink to="/signin">Sign In</NavBtnLink>
-                      </NavBtn>
-                      
-                      <NavBtn>
-                    <NavBtnLink to="/signup">Sign Up</NavBtnLink>
+                <NavBtn>   
+                    <NavBtnLink to="/signup"><FaShoppingCart color='#010606'/></NavBtnLink>
                 </NavBtn>
 
             </NavBarContainer>
