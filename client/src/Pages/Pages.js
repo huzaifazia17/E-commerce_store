@@ -23,7 +23,6 @@ const Pages = () => {
         <Info {...homeObjOne}/>
         <Info {...homeObjTwo}/>
         <Services />
-        <Info {...homeObjThree}/>
         <Footer />
     </>
   )
