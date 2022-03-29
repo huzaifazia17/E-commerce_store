@@ -18,10 +18,10 @@ const Footer = () => {
 
                         <FooterLinkTitle>About Us</FooterLinkTitle>
 
-                        <FooterLink to="/signin">Socials</FooterLink>
-                        <FooterLink to="/signin">How it Works</FooterLink>
-                        <FooterLink to="/signin">Delivery Times</FooterLink>
-                        <FooterLink to="/signin">Terms Of Service</FooterLink>
+                        <FooterLink to="/">Socials</FooterLink>
+                        <FooterLink to="/">How it Works</FooterLink>
+                        <FooterLink to="/">Delivery Times</FooterLink>
+                        <FooterLink to="/">Terms Of Service</FooterLink>
                         
                     </FooterLinkItems>
                 </FooterLinksWrapper>

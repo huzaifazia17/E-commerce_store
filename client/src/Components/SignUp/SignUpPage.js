@@ -1,5 +1,6 @@
 import React from 'react'
 //import { Formik, Form, Field, ErrorMessage } from "formik";
+import Footer from '../Footer/Footer'
 import { Container, FormWrap, Icon, Form, FormButton, FormContent, FormH1, FormInput, FormLabel } from './SignUpPageElements'
 
 const SignUpPage = () => {
@@ -23,6 +24,7 @@ const SignUpPage = () => {
           </FormContent>
         </FormWrap>
       </Container>
+      <Footer />
     </>
   )
 

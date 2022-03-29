@@ -65,7 +65,7 @@ export const FooterLink = styled(Link)`
 
     &:hover 
     {
-        color: #01bf71;
+        color: #FFA500;
         transition:0.3s ease-out
     }
 `
