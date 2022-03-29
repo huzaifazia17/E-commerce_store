@@ -2,7 +2,10 @@ import React from 'react';
 import './App.css';
 import Home from './Pages/Pages'
 import SignIn from './Pages/SignIn'
-import SignUp from './Pages/SignUp'
+
+import SignUpPage from './Components/SignUp/SignUpPage'
+import SignInPage from './Components/SignIn/SignInPage'
+
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
@@ -11,8 +14,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" component={Home} exact element={<Home />}/>
-        <Route path="/signin" component={SignIn} exact element={<SignIn />} />
-        <Route path="/signup" component={SignUp} exact element={<SignUp />}/>
+        <Route path="/signin" component={SignInPage} exact element={<SignInPage />} />
+        <Route path="/signup" component={SignUpPage} exact element={<SignUpPage />}/>
         
       </Routes>
     </Router>

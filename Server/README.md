@@ -1,1 +1,0 @@
-will host all server related files
