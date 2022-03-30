@@ -5,6 +5,7 @@ import SignIn from './Pages/SignIn'
 
 import SignUpPage from './Components/SignUp/SignUpPage'
 import SignInPage from './Components/SignIn/SignInPage'
+import Contact from './Components/ContactUs/Contact'
 
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" component={Home} exact element={<Home />}/>
         <Route path="/signin" component={SignInPage} exact element={<SignInPage />} />
+        <Route path="/contactus" component={Contact} exact element={<Contact />} />
         <Route path="/signup" component={SignUpPage} exact element={<SignUpPage />}/>
       </Routes>
     </Router>

@@ -13,13 +13,13 @@ const SignUpPage = () => {
           <FormContent>
             <Form action="#">
               <FormH1>Sign Up</FormH1>
-
-              <FormLabel htmlFor='for'>Username</FormLabel>
-              
+              <FormLabel htmlFor='for'>First and Last Name</FormLabel>
+              <FormInput type='name' required />
+              <FormLabel htmlFor='for'>Email</FormLabel>
               <FormInput type='email' required />
               <FormLabel htmlFor='for'>Password</FormLabel>
               <FormInput type='password' required />
-              <FormButton type='submit'>Continue</FormButton>
+              <FormButton type='submit'>Register</FormButton>
             </Form>
           </FormContent>
         </FormWrap>

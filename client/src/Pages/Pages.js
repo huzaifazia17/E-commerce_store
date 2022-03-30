@@ -4,7 +4,7 @@ import Hero from '../Components/HeroSection/Hero'
 import { homeObjOne , homeObjTwo , homeObjThree } from '../Components/InfoSection/Data'
 import Info from '../Components/InfoSection/Info'
 import NavBar from '../Components/NavBar/NavBar'
-import Services from '../Components/Services/Services'
+import Services from '../Components/ContactUs/Contact'
 import SideBar from '../Components/SideBar/SideBar'
 
 const Pages = () => {
@@ -22,7 +22,6 @@ const Pages = () => {
         <Hero />
         <Info {...homeObjOne}/>
         <Info {...homeObjTwo}/>
-        <Services />
         <Footer />
     </>
   )
