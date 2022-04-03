@@ -22,8 +22,9 @@ const Pages = () => {
       <SideBar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
       <Hero />
-      <Info {...homeObjOne} />
+      <About />
       <Info {...homeObjTwo} />
+      <Services />
       <Footer />
     </>
   )

@@ -2,12 +2,12 @@ import Footer from '../Footer/Footer'
 import { Container, FormWrap, Icon, Form, FormButton, FormContent, FormH1, FormInput, FormLabel } from '../SignUp/SignUpPageElements'
 
 const Services = () => {
-    return (
-      <>
-    <Container>
+  return (
+    <>
+      <Container>
         <FormWrap>
-          <Icon to="/">Orange</Icon>
-                
+          <Icon to="/"></Icon>
+
           <FormContent>
             <Form action="#">
               <FormH1>Contact Us</FormH1>
@@ -23,8 +23,8 @@ const Services = () => {
         </FormWrap>
       </Container>
       <Footer />
-            
-            </>
+
+    </>
   )
 }
 

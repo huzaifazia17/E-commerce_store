@@ -13,15 +13,9 @@ const SignUpPage = () => {
           <FormContent>
             <Form action="#">
               <FormH1>Sign Up</FormH1>
-<<<<<<< HEAD
-
-              <FormLabel htmlFor='for'>Username</FormLabel>
-
-=======
               <FormLabel htmlFor='for'>First and Last Name</FormLabel>
               <FormInput type='name' required />
               <FormLabel htmlFor='for'>Email</FormLabel>
->>>>>>> ad1285d2734d0aec9199d98a131c02706b384607
               <FormInput type='email' required />
               <FormLabel htmlFor='for'>Password</FormLabel>
               <FormInput type='password' required />
