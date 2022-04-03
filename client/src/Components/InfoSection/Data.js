@@ -1,5 +1,5 @@
 export const homeObjOne = {
-    id : 'about',
+    id: 'null', /*Changed this so that I can reference actual About Page */
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -16,13 +16,13 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-    id : 'discover',
+    id: 'products',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     topLine: 'Premium Tech',
-    headline: 'hello hello hello',
-    description: 'random random random random random random random random random',
+    headline: 'Low Price Garauntee',
+    description: 'Click on Products to view our selection',
     buttonLabel: 'Products',
     imgStart: true,
     img: require('../../Images/pic1.png'),
@@ -33,7 +33,7 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id : 'signup',
+    id: 'signup',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,

@@ -8,14 +8,14 @@ const SignUpPage = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to="/">Orange</Icon>
-                
+          <Icon to="/">Orange Tech</Icon>
+
           <FormContent>
             <Form action="#">
               <FormH1>Sign Up</FormH1>
 
               <FormLabel htmlFor='for'>Username</FormLabel>
-              
+
               <FormInput type='email' required />
               <FormLabel htmlFor='for'>Password</FormLabel>
               <FormInput type='password' required />
