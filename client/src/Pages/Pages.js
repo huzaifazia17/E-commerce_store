@@ -24,7 +24,6 @@ const Pages = () => {
       <Hero />
       <About />
       <Info {...homeObjTwo} />
-      <Services />
       <Footer />
     </>
   )

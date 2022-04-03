@@ -6,7 +6,7 @@ const Services = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to="/"></Icon>
+          <Icon to="/">Orange Tech</Icon>
 
           <FormContent>
             <Form action="#">
