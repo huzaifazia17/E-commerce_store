@@ -40,19 +40,27 @@ const NavBar = ({ toggle }) => {
 
                         <NavMenu>
                             <NavItem>
+                                <NavLinks to="admin" smooth={true} duration={500} spy={true} exact='true' offset={-79}>
+                                    <Link to={"admin"} style={{ textDecoration: 'none', color: '#fff' }}>Admin</Link>
+                                </NavLinks>
+                            </NavItem>
+                            <NavItem>
                                 <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="products" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Products</NavLinks>
+                                <NavLinks to="discover" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Discover</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="services" smooth={true} duration={500} spy={true} exact='true' offset={-79}>Services</NavLinks>
+                                <NavLinks to="contactus" smooth={true} duration={500} spy={true} exact='true' offset={-79}>
+                                    <Link to={"contactus"} style={{ textDecoration: 'none', color: '#fff' }}>Contact Us</Link>
+                                </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="signin" smooth={true} duration={500} spy={true} exact='true' offset={-79}>
                                     <Link to={"signin"} style={{ textDecoration: 'none', color: '#fff' }}>Sign In</Link>
                                 </NavLinks>
                             </NavItem>
+
                         </NavMenu>
 
                         <NavBtn>

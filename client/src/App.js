@@ -5,6 +5,8 @@ import SignIn from './Pages/SignIn'
 
 import SignUpPage from './Components/SignUp/SignUpPage'
 import SignInPage from './Components/SignIn/SignInPage'
+import Contact from './Components/ContactUs/Contact'
+import Admin from './Components/Admin/Admin'
 
 import ProductsPage from './Components/Products/productsPage';
 import Cart from './Components/Cart/Cart.js'
@@ -20,6 +22,10 @@ function App() {
         <Route path="/signup" component={SignUpPage} exact element={<SignUpPage />} />
         <Route path="/products" component={ProductsPage} exact element={<ProductsPage />} />
         <Route path="/cart" component={Cart} exact element={<Cart />} />
+        <Route path="/contactus" component={Contact} exact element={<Contact />} />
+        <Route path="/signup" component={SignUpPage} exact element={<SignUpPage />} />
+        <Route path="/admin" component={Admin} exact element={<Admin />} />
+
       </Routes>
     </Router>
   );

@@ -4,7 +4,7 @@ import Hero from '../Components/HeroSection/Hero'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../Components/InfoSection/Data'
 import Info from '../Components/InfoSection/Info'
 import NavBar from '../Components/NavBar/NavBar'
-import Services from '../Components/Services/Services'
+import Services from '../Components/ContactUs/Contact'
 import SideBar from '../Components/SideBar/SideBar'
 import About from '../Components/InfoSection/About'
 import { aboutObj } from '../Components/InfoSection/About'
@@ -22,13 +22,9 @@ const Pages = () => {
       <SideBar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
       <Hero />
-      <About {...aboutObj} />
-      {/*<Info {...homeObjOne} />*/}
+      <Info {...homeObjOne} />
       <Info {...homeObjTwo} />
-      <Services />
       <Footer />
-
-
     </>
   )
 }
