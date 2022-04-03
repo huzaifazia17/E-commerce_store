@@ -22,7 +22,7 @@ const Pages = () => {
       <SideBar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
       <Hero />
-      <About />
+      <About {...aboutObj} />
       <Info {...homeObjTwo} />
       <Footer />
     </>
