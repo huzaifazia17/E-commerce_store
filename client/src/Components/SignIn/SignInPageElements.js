@@ -89,7 +89,7 @@ export const FormLabel = styled.label`
     font-size: 14px;
     color: #fff;
 `
-  
+
 export const FormInput = styled.input`
     padding: 16px 16px;
     margin-bottom: 32px;
