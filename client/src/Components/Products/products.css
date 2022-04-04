@@ -38,6 +38,10 @@
     padding-left: 3em;
 
 }
+.search-filter-items li input{
+    border-style: none;
+
+}
 .search-filter-container-two{
     background-color: black;
     width: 60%;
@@ -56,6 +60,7 @@
 .search-bar input{
     border-radius: 20px;
     width: 60%;
+    border-style: none;
 }
 .row{
     display: flex;
