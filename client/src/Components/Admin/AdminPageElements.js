@@ -10,7 +10,7 @@ export const Container = styled.div`
     top: 0;
     z-index: 0;
     overflow: hidden;
-    background: #FFA500;
+    background: #e3e1c6;
 `
 
 export const FormWrap = styled.div`
@@ -89,7 +89,7 @@ export const FormLabel = styled.label`
     font-size: 14px;
     color: #fff;
 `
-  
+
 export const FormInput = styled.input`
     padding: 16px 16px;
     margin-bottom: 32px;

@@ -10,7 +10,7 @@ import './products.css'
 
 export default function MediaCard() {
     return (
-        <Card sx={{ maxWidth: 345 }} >
+        <Card sx={{ maxWidth: 345 }} id="Card">
             <CardMedia
                 component="img"
                 height="140"

@@ -7,7 +7,7 @@ const Admin = () => {
     <div>
       <Container>
         <FormWrap>
-          <Icon to="/">Orange</Icon>
+          <Icon to="/" style={{ color: "#FFA500" }}>Orange Tech</Icon>
           <FormContent>
             <Form action="#">
               <FormH1>Admin Page</FormH1>

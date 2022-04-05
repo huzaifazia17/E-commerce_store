@@ -1,5 +1,8 @@
 .container{
-    background-color: aliceblue;
+    background-color: #e3e1c6;
+}
+.title{
+    color: #FFA500;
 }
 .products-container{
  justify-content: center;
@@ -18,11 +21,13 @@
  color: aliceblue;
  font-size:x-large;
  text-align: center;
+ color: #FFA500;
 }
 .search-filter-items{
     align-items: center;
     padding-top: 20px;
     justify-content: space-between;
+    color: #FFA500;
 }
 
 .search-filter-items ul{
@@ -31,15 +36,18 @@
     color: aliceblue;
     display: table;
     margin: 0 auto;
+    color: #FFA500;
 
 }
 .search-filter-items li{
     float: left;
     padding-left: 3em;
+    color: #FFA500;
 
 }
 .search-filter-items li input{
     border-style: none;
+    color: #FFA500;
 
 }
 .search-filter-container-two{
@@ -56,11 +64,13 @@
 .search-bar{
     color: aliceblue;
     text-align: center;
+    color: #FFA500;
 }
 .search-bar input{
     border-radius: 20px;
     width: 60%;
     border-style: none;
+    color: #FFA500;
 }
 .row{
     display: flex;
@@ -74,4 +84,11 @@
     padding-top: 30px;
     padding-bottom: 15px;
     transform: translateX(15%);
+}
+#Card{
+    border-radius: 20px;
+    box-shadow: #FFA500 0px 1px 4px, #FFA500 0px 0px 0px 3px;
+}
+#Card:hover{
+    border-radius: 40px;
 }

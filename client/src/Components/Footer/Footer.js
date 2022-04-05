@@ -29,7 +29,7 @@ const Footer = () => {
 
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/' onClick={toggleHome}>Orange</SocialLogo>
+                        <SocialLogo to='/' onClick={toggleHome} style={{ color: "#FFA500" }}>Orange Tech</SocialLogo>
 
                         <WebsiteRights>Orange © {new Date().getFullYear()} All Rights Reserved</WebsiteRights>
 

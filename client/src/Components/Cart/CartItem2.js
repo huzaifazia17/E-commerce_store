@@ -12,7 +12,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 
 export default function CartItem2() {
     return (
-        <Card sx={{ maxWidth: 345 }} >
+        <Card sx={{ maxWidth: 345 }} id="Card">
             <CardMedia
                 component="img"
                 height="140"

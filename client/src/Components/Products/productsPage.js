@@ -14,8 +14,8 @@ import MediaCard8 from './ProductItem8'
 const ProductsPage = () => {
     return (
         <div className="container">
-            <Container>
-                <Icon to="/">Orange Tech</Icon>
+            <Container className="container">
+                <Icon to="/" className="title">Orange Tech</Icon>
                 <div className="products-container">
                     <div className="search-filter-container">
                         <h1>Filter & Search</h1>

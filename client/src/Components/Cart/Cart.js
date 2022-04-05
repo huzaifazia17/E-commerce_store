@@ -20,7 +20,7 @@ const Cart = () => {
     return (
         <>
             <Container>
-                <Icon to="/">Orange Tech</Icon>
+                <Icon to="/" style={{ color: "#FFA500" }}>Orange Tech</Icon>
                 <div className="cart-container">
                     <div className="column">
                         <h2>CART ITEMS</h2><br />
