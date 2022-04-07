@@ -1,8 +1,5 @@
 # Online Shopping Store- Orange Tech
-### CRN: 73612: Group 9
-*Huzaifa Zia-100779087* <br />
-*Zubair Islam-100778152* <br />
-*Hanzalah Patel-100785622*<br />
+
 ### Our Website
 >Online Store that sells tech products such as Phones, IPads, Laptops from high end companies such as Apple, Samsung and Asus at a retail price. Our store allows for fast, secure and reliable shopping and stress free shipping. <br />
 ### Vision Statement 
