@@ -1,13 +1,4 @@
-# Orange Tech- Online Shopping Store
->When cloning project make sure you have <br />
->>1. node.js installed <br />
->>2. Install react installs using <br />
->>### `npm start` <br />
->>3. Run code from inside the Code folder <br />
 
-## Screenshots of Demo
-### Main Page
-![Main Page](https://github.com/Winter22SOFE2720/Final_Project_CRN_73612_G9/blob/main/Code/src/Images/main.jpg)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
