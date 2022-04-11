@@ -6,6 +6,7 @@
 >>3. Run code from inside the Code folder <br />
 
 ## Screenshots of Demo
+### Main Page
 ![Main Page](https://github.com/Winter22SOFE2720/Final_Project_CRN_73612_G9/blob/main/Code/src/Images/main.jpg)
 # Getting Started with Create React App
 
